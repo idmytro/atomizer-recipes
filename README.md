@@ -1,2 +1,1 @@
-# atomizer-recipes
-First
+# Atomizer Recipes
