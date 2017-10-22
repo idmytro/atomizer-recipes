@@ -1,0 +1,20 @@
+{
+  "name": "atomizer-recipes",
+  "version": "0.0.0",
+  "scripts": {
+    "p:Size": "atomizer -o patterns/Size/atomic.css -c ./patterns/Size/config.js -r ./patterns/Size/rules.js  ./patterns/Size/src.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/idmytro/atomizer-recipes.git"
+  },
+  "author": "Dmytro Cisar <i@dmyt.ro> (http://dmyt.ro/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/idmytro/atomizer-recipes/issues"
+  },
+  "homepage": "https://github.com/idmytro/atomizer-recipes#readme",
+  "dependencies": {
+    "atomizer": "3.4.6"
+  }
+}
