@@ -10,3 +10,13 @@
     height: $1;
 }
 ```
+
+## Cases
+
+### `Cnt(e)` →
+
+```css
+.Cnt\(e\)\:\:a::after {
+  content: '';
+}
+```
