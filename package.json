@@ -1,9 +1,8 @@
 {
   "name": "atomizer-recipes",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "scripts": {
-    "p:Size": "atomizer -o patterns/Size/atomic.css -c ./patterns/Size/config.js -r ./patterns/Size/rules.js ./patterns/Size/src.html",
-    "c:ContentEmpty": "atomizer -o cases/ContentEmpty/atomic.css -c ./cases/ContentEmpty/config.js ./cases/ContentEmpty/src.html"
+    "start": "nps"
   },
   "repository": {
     "type": "git",
@@ -16,6 +15,7 @@
   },
   "homepage": "https://github.com/idmytro/atomizer-recipes#readme",
   "dependencies": {
-    "atomizer": "3.4.6"
+    "atomizer": "3.4.6",
+    "nps": "5.7.1"
   }
 }
