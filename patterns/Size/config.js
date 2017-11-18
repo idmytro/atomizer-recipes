@@ -1,5 +1,5 @@
 module.exports = {
-    custom: {
-        "auto": "auto"
-    }
+  custom: {
+    "auto": "auto"
+  }
 };

@@ -1,5 +1,5 @@
 module.exports = {
-    custom: {
-        "e": "''"
-    }
+  custom: {
+    "e": "''"
+  }
 };
