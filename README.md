@@ -1,22 +1,17 @@
 # Atomizer Recipes
 
-## Patterns
+Collection of custom atomizer recipes.
 
-### `Size(<width>,<height>)` →
+## How to try
 
-```css
-{
-    width: $0;
-    height: $1;
-}
-```
+`npm i atomizer -g`
 
-## Cases
+`npm i nps -g`
 
-### `Cnt(e)` →
+Run `nps` to see available recipes.
 
-```css
-{
-    content: '';
-}
-```
+Run `nps <recipe_name>` to check the specific recipe.
+
+## How to use
+
+Copy-paste recipe configs into your atomizer configs.
