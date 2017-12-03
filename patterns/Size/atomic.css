@@ -1,4 +1,8 @@
-.Size\(1em\,auto\) {
+.Size\(1em\,2em\) {
   width: 1em;
+  height: 2em;
+}
+.Size\(300px\,a\) {
+  width: 300px;
   height: auto;
 }
