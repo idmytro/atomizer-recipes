@@ -11,7 +11,7 @@ module.exports = [
     },
     arguments: [{
       /* if you want use 'a' for 2nd argument, add 'a' variable to config.js */
-      'a': 'auto'
+      'a': 'auto',
     }]
-  },
+  }
 ]
