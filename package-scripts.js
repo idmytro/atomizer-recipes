@@ -1,7 +1,16 @@
+function cmd (path, hasConfig = true, hasRules = true) {
+  return [
+    `atomizer -o ${path}/atomic.css`,
+    hasConfig ? `-c ${path}/config.js` : '',
+    hasRules ? `-r ${path}/rules.js` : '',
+    `${path}/src.html`
+  ].join(' ');
+}
+
 module.exports = {
   scripts: {
-    "p:Bgp4v":        "atomizer -o patterns/Bgp4v/atomic.css     -c ./patterns/Bgp4v/config.js    -r ./patterns/Bgp4v/rules.js  ./patterns/Bgp4v/src.html",
-    "p:Size":         "atomizer -o patterns/Size/atomic.css      -c ./patterns/Size/config.js     -r ./patterns/Size/rules.js   ./patterns/Size/src.html",
-    "c:ContentEmpty": "atomizer -o cases/ContentEmpty/atomic.css -c ./cases/ContentEmpty/config.js                              ./cases/ContentEmpty/src.html"
+    "patternBgp4v":     cmd("patterns/Bgp4v"),
+    "patternSize":      cmd("patterns/Size"),
+    "caseContentEmpty": cmd("cases/ContentEmpty", true, false)
   }
 };
