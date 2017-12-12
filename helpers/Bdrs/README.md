@@ -2,7 +2,7 @@
 
 ```css
 {
-  border-radiuse: $bdrs_default
+  border-radius: BDRS_DEFAULT
 }
 ```
 
@@ -10,6 +10,6 @@
 
 ```css
 {
-  border-radiuse: $bdrs_full
+  border-radius: BDRS_FULL
 }
 ```
