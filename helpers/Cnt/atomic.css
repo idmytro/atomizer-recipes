@@ -1,0 +1,6 @@
+.Cnt\:\:a::after {
+  content: '';
+}
+.Cnt\:\:b::before {
+  content: '';
+}
