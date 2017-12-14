@@ -13,6 +13,6 @@ module.exports = {
     "helperCnt":        cmd("helpers/Cnt", false),
     "helperBdrs":       cmd("helpers/Bdrs", false),
     "patternBgp4v":     cmd("patterns/Bgp4v"),
-    "patternSize":      cmd("patterns/Size"),
+    "patternSize":      cmd("patterns/Size", false),
   }
 };
