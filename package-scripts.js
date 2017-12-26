@@ -9,7 +9,6 @@ function cmd (path, hasConfig = true, hasRules = true) {
 
 module.exports = {
   scripts: {
-    "caseContentEmpty": cmd("cases/ContentEmpty", true, false),
     "helperCnt":        cmd("helpers/Cnt", false),
     "helperBdrs":       cmd("helpers/Bdrs", false),
     "patternBgp4v":     cmd("patterns/Bgp4v"),
