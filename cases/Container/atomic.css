@@ -1,0 +1,20 @@
+@media screen and (min-width:576px) {
+  .Maw\(container\) {
+    max-width: 576px;
+  }
+}
+@media screen and (min-width:768px) {
+  .Maw\(container\) {
+    max-width: 768px;
+  }
+}
+@media screen and (min-width:992px) {
+  .Maw\(container\) {
+    max-width: 992px;
+  }
+}
+@media screen and (min-width:1200px) {
+  .Maw\(container\) {
+    max-width: 1200px;
+  }
+}
