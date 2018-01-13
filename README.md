@@ -1,6 +1,4 @@
-# Atomizer Recipes
-
-Collection of custom atomizer recipes.
+# Atomizer Recipes Demo
 
 ## How to try
 
