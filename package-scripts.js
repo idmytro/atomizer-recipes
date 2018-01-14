@@ -11,6 +11,7 @@ module.exports = {
   scripts: {
     "caseMawContainer": cmd("cases/MawContainer", true, false),
     "helperBdrs":       cmd("helpers/Bdrs", false),
+    "helperBdrsFull":   cmd("helpers/BdrsFull", false),
     "helperCnt":        cmd("helpers/Cnt", false),
     "helperFx":         cmd("helpers/Fx", false),
     "patternBgp4v":     cmd("patterns/Bgp4v"),

@@ -1,0 +1,7 @@
+.Bd {
+  border-width: 1px;
+  border-style: solid;
+}
+.BdrsFull {
+  border-radius: 9999px;
+}
