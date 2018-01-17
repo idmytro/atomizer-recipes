@@ -9,6 +9,7 @@ function cmd (path, hasConfig = true, hasRules = true) {
 
 module.exports = {
   scripts: {
+    "caseDisplayGrid": cmd("cases/DisplayGrid", true, false),
     "caseMawContainer": cmd("cases/MawContainer", true, false),
     "helperBdrs":       cmd("helpers/Bdrs", false),
     "helperBdrsFull":   cmd("helpers/BdrsFull", false),
