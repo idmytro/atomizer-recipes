@@ -1,0 +1,9 @@
+.Wc\(a\) {
+  will-change: auto;
+}
+.Wc\(c\) {
+  will-change: contents;
+}
+.Wc\(sp\) {
+  will-change: scroll-position;
+}
