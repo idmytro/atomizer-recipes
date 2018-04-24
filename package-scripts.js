@@ -17,6 +17,7 @@ module.exports = {
     "helperFx":          cmd("helpers/Fx", false),
     "helperNoScrollbar": cmd("helpers/NoScrollbar", false),
     "patternBgp4v":      cmd("patterns/Bgp4v"),
+    "patternF":          cmd("patterns/F", false),
     "patternSize":       cmd("patterns/Size", false),
     "patternWc":         cmd("patterns/Wc"),
   }
