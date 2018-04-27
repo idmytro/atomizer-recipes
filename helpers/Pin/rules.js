@@ -11,4 +11,24 @@ module.exports = [
       'right': '0'
     }
   },
+  {
+    type: "helper",
+    name: "PinX",
+    matcher: "PinX",
+    noParams: true,
+    styles: {
+      'left': '0',
+      'right': '0'
+    }
+  },
+  {
+    type: "helper",
+    name: "PinY",
+    matcher: "PinY",
+    noParams: true,
+    styles: {
+      'top': '0',
+      'bottom': '0'
+    }
+  },
 ];

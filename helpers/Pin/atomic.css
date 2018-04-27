@@ -1,6 +1,8 @@
-.Pin {
+.Pin, .PinY {
   top: 0;
-  left: 0;
   bottom: 0;
+}
+.Pin, .PinX {
+  left: 0;
   right: 0;
 }
