@@ -20,6 +20,7 @@ module.exports = {
     "patternBgp4v":      cmd("patterns/Bgp4v"),
     "patternF":          cmd("patterns/F", false),
     "patternSize":       cmd("patterns/Size", false),
+    "patternSpace":      cmd("patterns/Space", false),
     "patternWc":         cmd("patterns/Wc"),
   }
 };

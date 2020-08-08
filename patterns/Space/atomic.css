@@ -1,0 +1,12 @@
+[class*=SpaceX] > * + * {
+  margin-left: var(--space-x);
+}
+.SpaceX\(10px\) {
+  --space-x: 10px;
+}
+[class*=SpaceY] > * + * {
+  margin-top: var(--space-y);
+}
+.SpaceY\(10px\) {
+  --space-y: 10px;
+}
